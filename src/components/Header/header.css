@@ -1,0 +1,14 @@
+.spaceRight
+{
+	margin-top:2vh;
+	margin-right: 1vw;
+	color: #C5C6C7;
+	font-size: 14px;
+}
+
+.spaceRight:hover
+{
+	color: #66FCF1;
+	text-decoration-line: underline;
+	text-decoration-color: #45A29E;
+}

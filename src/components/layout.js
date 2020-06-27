@@ -10,8 +10,9 @@ import { StaticQuery, graphql } from "gatsby"
 
 import { Container, Row, Col } from "react-bootstrap"
 
-import Header from "./header"
+import Header from "./Header/header"
 import Navbar from "./navBar"
+ 
 
 const Layout = ({ children, pageInfo }) => (
   <StaticQuery
@@ -25,11 +26,27 @@ const Layout = ({ children, pageInfo }) => (
       }
     `}
     render={data => (
-      <>
-        <Container fluid className="px-0 main">
-         
-        </Container>
-      </>
+      
+    <Container fluid>
+
+      <Row>
+        <Header />
+      </Row>
+        
+      <Row>
+        <Col>
+        </Col>
+
+         <Col>
+        </Col>
+
+         <Col>
+        </Col>
+      
+      </Row>  
+
+    </Container>      
+
     )}
   />
 )
