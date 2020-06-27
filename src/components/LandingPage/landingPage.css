@@ -1,0 +1,21 @@
+.backgroundSection
+{
+	background-color: #0b0c10;
+	color: #C5C6C7;
+}
+
+
+p
+{
+	font-weight: 350;
+	font-size: 50px;
+	margin-top: 10vh;
+}
+
+h3
+{	
+	font-weight: 400;
+	margin-top: -4vh;
+	font-size: 100px;
+	color: #66FCF1;
+}
