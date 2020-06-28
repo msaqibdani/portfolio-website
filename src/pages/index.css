@@ -14,7 +14,7 @@ body
 
 a
 {
-	color:#66FCF1;;
+	color:#66FCF1;
 }
 
 a:hover
@@ -24,8 +24,6 @@ a:hover
 	text-decoration: overline;
 	text-decoration-color: #45A29E;
 }
-
-
 
 
 /**

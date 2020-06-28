@@ -12,6 +12,7 @@ import { Container, Row, Col } from "react-bootstrap"
 
 import Header from "./Header/header"
 import Landingpage from "./LandingPage/Landingpage"
+import LeftBar from "./LeftBar/leftBar"
 
  
 
@@ -36,6 +37,7 @@ const Layout = ({ children, pageInfo }) => (
         
       <Row>
         <Col md="2">
+          <LeftBar />
         </Col>
 
          <Col md= "8"> 

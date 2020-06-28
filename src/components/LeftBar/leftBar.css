@@ -1,0 +1,22 @@
+.leftMargin 
+{
+	margin-left: 3vw;
+	margin-top: 20vh;
+}
+
+.spaceBetween
+{
+	margin-bottom: 5vh;
+
+}
+
+
+.icons-react
+{
+	color:#C5C6C7;
+}
+
+.icons-react:hover
+{
+	color: #66FCF1;
+}
