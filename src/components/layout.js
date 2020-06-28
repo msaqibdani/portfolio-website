@@ -11,7 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import { Container, Row, Col } from "react-bootstrap"
 
 import Header from "./Header/header"
-import LandingPage from "./LandingPage/landingPage"
+import Landingpage from "./LandingPage/Landingpage"
 
  
 
@@ -35,16 +35,15 @@ const Layout = ({ children, pageInfo }) => (
       </Row>
         
       <Row>
-        <Col md="1">
+        <Col md="2">
         </Col>
 
-         <Col md= "10">
+         <Col md= "8"> 
+          <Landingpage />
 
-          <LandingPage />
+         </Col>
 
-        </Col>
-
-         <Col md = "1">
+         <Col md = "2">
         </Col>
       
       </Row>  
