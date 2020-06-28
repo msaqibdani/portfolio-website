@@ -13,8 +13,16 @@ import { Container, Row, Col } from "react-bootstrap"
 import Header from "./Header/header"
 import Landingpage from "./LandingPage/Landingpage"
 import LeftBar from "./LeftBar/leftBar"
+import Rightbar from "./RightBar/rightBar"
+import About from "./About/about"
 
  
+ const size93 = 
+ {
+    height: '93vh'
+ }
+
+
 
 const Layout = ({ children, pageInfo }) => (
   <StaticQuery
@@ -42,15 +50,29 @@ const Layout = ({ children, pageInfo }) => (
 
          <Col md= "8"> 
           <Landingpage />
+         </Col>
 
+         <Col md = "2">
+          <Rightbar />
+        </Col>
+      
+      </Row>
+
+      <div className = "pageBreak"></div>
+      <Row className = "body2">
+        <Col md="2">
+        </Col>
+
+         <Col md= "8"> 
+          <About />
          </Col>
 
          <Col md = "2">
         </Col>
-      
-      </Row>  
+      </Row>
+    </Container>  
 
-    </Container>      
+
 
     )}
   />

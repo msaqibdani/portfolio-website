@@ -41,7 +41,7 @@ const Landingpage = ({ props }) => (
 				</Jumbotron>
 			</Row>
 			<Row>
-				 <Button className = "btnContact" size="lg" variant="">Contact Me</Button>
+				 <Button href="mailTo:daniyalsaqib9@gmail.com" className = "btnContact" size="" variant="">Contact Me</Button>
 			</Row>
 		</Col>
 	</Row>

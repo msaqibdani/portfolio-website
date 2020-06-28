@@ -12,6 +12,15 @@ body
 	
 }
 
+.body2
+{
+
+	color: #0b0c10;
+	background-color: #C5C6C7;
+	padding-top: 2vh;
+
+}
+
 a
 {
 	color:#66FCF1;
@@ -23,6 +32,11 @@ a:hover
 	font-weight: bold;
 	text-decoration: overline;
 	text-decoration-color: #45A29E;
+}
+
+.pageBreak
+{
+	margin-top: 30vh;
 }
 
 

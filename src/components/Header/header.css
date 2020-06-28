@@ -9,6 +9,6 @@
 .spaceRight:hover
 {
 	color: #66FCF1;
-	text-decoration-line: underline;
+	text-decoration: overline;
 	text-decoration-color: #45A29E;
 }
