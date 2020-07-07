@@ -55,10 +55,7 @@ const Layout = ({ children, pageInfo }) => (
          <Col md = "2">
           <Rightbar />
         </Col>
-      
       </Row>
-
-      
     </Container>  
 
 
