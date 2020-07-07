@@ -58,18 +58,7 @@ const Layout = ({ children, pageInfo }) => (
       
       </Row>
 
-      <div className = "pageBreak"></div>
-      <Row className = "body2">
-        <Col md="2">
-        </Col>
-
-         <Col md= "8"> 
-          <About />
-         </Col>
-
-         <Col md = "2">
-        </Col>
-      </Row>
+      
     </Container>  
 
 
