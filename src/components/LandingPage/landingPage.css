@@ -49,7 +49,7 @@
 {
 		.tagLine
 	{
-		margin-top: 25vh;
+		margin-top: 22vh;
 		font-weight: 350;
 		font-size: 20px;
 		margin-left: 10vw;
@@ -59,22 +59,23 @@
 	.name
 	{	
 		
-		font-size: 30px;
+		font-size: 35px;
 		margin-left:10vw;
 		
 	}
 
 	.about
 	{
-		font-size: 10px;
+		font-size: 12px;
 		font-weight: 12;
 		margin-left: 10vw;
+		width: 50vw;
 		
 	}
 
 	.btn 
 	{
-		margin-top: -10vh;
+		margin-top: -7vh;
 		margin-left: 10vw;
 		font-size:11px;
 		width: 22vw;
