@@ -1,0 +1,12 @@
+a
+{
+	color:#66FCF1;
+}
+
+a:hover
+{
+	color: #66FCF1;
+	font-weight: bold;
+	text-decoration: overline;
+	text-decoration-color: #45A29E;
+}
