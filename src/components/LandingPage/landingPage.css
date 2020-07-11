@@ -43,3 +43,45 @@
 	color: #0b0c10;
 	background-color: #66FCF1;
 }
+
+
+@media (max-width: 576px)
+{
+		.tagLine
+	{
+		margin-top: 25vh;
+		font-weight: 350;
+		font-size: 20px;
+		margin-left: 10vw;
+		
+	}
+
+	.name
+	{	
+		
+		font-size: 30px;
+		margin-left:10vw;
+		
+	}
+
+	.about
+	{
+		font-size: 10px;
+		font-weight: 12;
+		margin-left: 10vw;
+		
+	}
+
+	.btn 
+	{
+		margin-top: -10vh;
+		margin-left: 10vw;
+		font-size:11px;
+		width: 22vw;
+		height: 4.5vh;
+
+	}
+
+
+
+}

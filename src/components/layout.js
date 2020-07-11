@@ -36,15 +36,15 @@ const Layout = ({ children, pageInfo }) => (
     <Container fluid>
 
       <Row>
-        <Col md="2">
+        <Col md={2} xs={2}>
           <LeftBar />
         </Col>
 
-         <Col md= "8"> 
+         <Col md={8} xs={8}> 
           <Landingpage />
          </Col>
 
-         <Col md = "2">
+         <Col md={2} xs={2}>
           <Rightbar />
         </Col>
       </Row>
