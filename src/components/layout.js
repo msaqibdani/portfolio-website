@@ -36,10 +36,6 @@ const Layout = ({ children, pageInfo }) => (
     <Container fluid>
 
       <Row>
-        <Header />
-      </Row>
-        
-      <Row>
         <Col md="2">
           <LeftBar />
         </Col>
