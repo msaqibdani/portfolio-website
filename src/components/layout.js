@@ -39,19 +39,7 @@ const Layout = ({ children, pageInfo }) => (
       
     <Container fluid>
 
-      <Row>
-        <Header />
-      </Row>
-        
-      <Row>
-        
-
-         <Col md= "8"> 
-          <Landingpage />
-         </Col>
-
-         
-      </Row>
+      
     </Container>  
 
 
