@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
 
-import "./Landingpage.css"
+import "./landingPage.css"
 
 
 import Jumbotron from 'react-bootstrap/Jumbotron'
