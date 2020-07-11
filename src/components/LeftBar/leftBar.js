@@ -29,7 +29,7 @@ const Leftbar = ({props}) =>
 					<a target="_blank" href="https://linkedin.com/in/muhammaddaniyalsaqib"><FaLinkedin /></a>
 				</div>
 				<div className="spaceBetween">
-					<a target="_blank" href="https://facebook.com/muhammaddaniyalsaqib"><FaFacebookF /></a>
+					<a target="_blank" href="https://www.facebook.com/mdaniyalsaqib"><FaFacebookF /></a>
 				</div>
 				<div className="spaceBetween">
 					<a target="_blank" href="https://twitter.com/msaqibdani"><FaTwitter /></a>
