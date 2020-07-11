@@ -11,7 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import { Container, Row, Col } from "react-bootstrap"
 
 import Header from "./Header/header"
-import Landingpage from "./LandingPage/Landingpage"
+import Landingpage from "./LandingPage/landingPage.js"
 import LeftBar from "./LeftBar/leftBar"
 import Rightbar from "./RightBar/rightBar"
 import About from "./About/about"
