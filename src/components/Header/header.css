@@ -15,6 +15,13 @@
 
 .justifyContentEnd
 {
-	margin-left: '90vw'
+	height: 5vh;
+	border: 1px solid white;
+	margin-left: 90vw;
 	
+}
+
+.justifyContentEnd:hover
+{
+	border-color: #66FCF1;;
 }

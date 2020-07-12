@@ -9,22 +9,28 @@ import resume from './../../Files/Resume.pdf'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 
 
 const Header = ({ }) => (
   <header>
 
-  	<div className="justifyContentEnd">
+  	<Container fluid>
+  		<Row>
+  			<Col>
 
-	  	<Nav>
-		  	<Nav.Item>
-		  		<Nav.Link href={resume} className = "spaceRight" eventKey = "link-1"> Resume </Nav.Link>
-		  	</Nav.Item>
+			  	<Nav >
+				  	<Nav.Item>
+				  		<Nav.Link href={resume} className = "spaceRight justifyContentEnd" eventKey = "link-1"> Resume </Nav.Link>
+				  	</Nav.Item>
 
-	  	</Nav>
+			  	</Nav>
 
-	</div>
+			</Col>
+		</Row>
+
+	</Container>
 
 
   </header>
