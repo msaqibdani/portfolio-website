@@ -4,42 +4,22 @@ import React from "react"
 
 
 import './header.css'
+import resume from './../../Files/Resume.pdf'
 
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
-const justifyContentEnd = 
-{
-	marginLeft: '68vw',
-	
-}
+
 
 const Header = ({ }) => (
   <header>
 
-  	<div style={justifyContentEnd}>
+  	<div className="justifyContentEnd">
 
 	  	<Nav>
 		  	<Nav.Item>
-		  		<Nav.Link className = "spaceRight" eventKey = "link-1"> About </Nav.Link>
-		  	</Nav.Item>
-		  	
-
-		  	<Nav.Item>
-		  		<Nav.Link className = "spaceRight" eventKey = "link-1"> Experience </Nav.Link>
-		  	</Nav.Item>
-
-		  	<Nav.Item>
-		  		<Nav.Link className = "spaceRight" eventKey = "link-1"> Work </Nav.Link>
-		  	</Nav.Item>
-
-		  	<Nav.Item>
-		  		<Nav.Link className = "spaceRight" eventKey = "link-1"> Contact </Nav.Link>
-		  	</Nav.Item>
-
-		  	<Nav.Item>
-		  		<Nav.Link className = "spaceRight" eventKey = "link-1"> Resume </Nav.Link>
+		  		<Nav.Link href={resume} className = "spaceRight" eventKey = "link-1"> Resume </Nav.Link>
 		  	</Nav.Item>
 
 	  	</Nav>
