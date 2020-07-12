@@ -45,14 +45,16 @@
 }
 
 
-@media (max-width: 576px)
+
+@media only screen and (max-width: 600px)
 {
 		.tagLine
 	{
-		margin-top: 24.5vh;
+		margin-top: 18vh;
 		font-weight: 350;
 		font-size: 20px;
 		margin-left: 10vw;
+
 		
 	}
 
@@ -86,3 +88,53 @@
 
 
 }
+
+@media only screen and (min-width: 600px) 
+{
+
+		.tagLine
+	{
+		margin-top: 25vh;
+		font-weight: 350;
+		font-size: 25px;
+		margin-left: 10vw;
+		margin-bottom: 3vh;
+		
+	}
+
+	.name
+	{	
+		
+		font-size: 45px;
+		margin-left:10vw;
+		
+	}
+
+	.about
+	{
+		font-size: 12px;
+		font-weight: 12;
+		margin-left: 10vw;
+		width: 50vw;
+		
+	}
+
+	.btn 
+	{
+		margin-top: -7vh;
+		margin-left: 10vw;
+		font-size:11px;
+		width: 15vw;
+		height: 3vh;
+
+	}
+
+}
+
+
+
+
+
+
+
+

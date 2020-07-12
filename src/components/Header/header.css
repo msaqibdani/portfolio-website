@@ -16,12 +16,19 @@
 .justifyContentEnd
 {
 	height: 5vh;
-	border: 1px solid white;
 	margin-left: 90vw;
 	
 }
 
-.justifyContentEnd:hover
+
+
+@media only screen and (max-width: 600px) 
 {
-	border-color: #66FCF1;;
+	.justifyContentEnd
+	{
+		font-size: 12px;
+		height: 5vh;
+		margin-left: 70vw;
+	}
+
 }

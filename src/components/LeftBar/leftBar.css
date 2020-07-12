@@ -7,9 +7,7 @@
 .spaceBetween
 {
 	margin-bottom: 5vh;
-
 }
-
 
 .icons-react
 {
@@ -20,3 +18,18 @@
 {
 	color: #66FCF1;
 }
+
+
+@media only screen and (max-width: 600px) 
+{
+
+	.leftMargin 
+	{
+		margin-top: 22vh;
+		margin-left: 0vw;
+	}
+
+}
+
+
+

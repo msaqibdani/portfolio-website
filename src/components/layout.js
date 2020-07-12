@@ -41,15 +41,15 @@ const Layout = ({ children, pageInfo }) => (
       </Row>
 
       <Row>
-        <Col md={2} xs={2}>
+        <Col md={2} xs={2} sm={2}>
           <LeftBar />
         </Col>
 
-         <Col md={8} xs={9}> 
+         <Col md={8} xs={9} sm={9}> 
           <Landingpage />
          </Col>
 
-         <Col md={2} xs={1}>
+         <Col md={2} xs={1} sm={1}>
           <Rightbar />
         </Col>
       </Row>
