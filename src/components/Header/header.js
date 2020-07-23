@@ -4,7 +4,7 @@ import React from "react"
 
 
 import './header.css'
-import resume from './../../Files/Resume.pdf'
+import resume from './Resume-v1.pdf'
 
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
@@ -13,7 +13,7 @@ import Col from 'react-bootstrap/Col'
 
 
 
-const Header = ({ }) => (
+const Header = ({}) => (
   <header>
 
   	<Container fluid>
