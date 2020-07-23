@@ -12,3 +12,23 @@
 	text-decoration: overline;
 	text-decoration-color: #45A29E;
 }
+
+.justifyContentEnd
+{
+	height: 5vh;
+	margin-left: 90vw;
+	
+}
+
+
+
+@media only screen and (max-width: 600px) 
+{
+	.justifyContentEnd
+	{
+		font-size: 12px;
+		height: 5vh;
+		margin-left: 70vw;
+	}
+
+}
