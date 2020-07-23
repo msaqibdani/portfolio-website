@@ -22,23 +22,6 @@ const Header = ({ }) => (
 
 	  	<Nav>
 		  	<Nav.Item>
-		  		<Nav.Link className = "spaceRight" eventKey = "link-1"> About </Nav.Link>
-		  	</Nav.Item>
-		  	
-
-		  	<Nav.Item>
-		  		<Nav.Link className = "spaceRight" eventKey = "link-1"> Experience </Nav.Link>
-		  	</Nav.Item>
-
-		  	<Nav.Item>
-		  		<Nav.Link className = "spaceRight" eventKey = "link-1"> Work </Nav.Link>
-		  	</Nav.Item>
-
-		  	<Nav.Item>
-		  		<Nav.Link className = "spaceRight" eventKey = "link-1"> Contact </Nav.Link>
-		  	</Nav.Item>
-
-		  	<Nav.Item>
 		  		<Nav.Link className = "spaceRight" eventKey = "link-1"> Resume </Nav.Link>
 		  	</Nav.Item>
 
