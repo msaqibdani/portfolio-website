@@ -41,17 +41,7 @@ const Layout = ({ children, pageInfo }) => (
       </Row>
 
       <Row>
-<<<<<<< HEAD
-        <Col>
-          <Header />
-        </Col>
-      </Row>
-
-      <Row>
-        <Col md={2} xs={2}>
-=======
         <Col md={2} xs={2} sm={2}>
->>>>>>> 87ef9e8ff769aaf1c96b62a7bc524c093d37f98d
           <LeftBar />
         </Col>
 

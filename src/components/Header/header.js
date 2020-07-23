@@ -16,14 +16,6 @@ import Col from 'react-bootstrap/Col'
 const Header = ({ }) => (
   <header>
 
-<<<<<<< HEAD
-  	<div style={justifyContentEnd}>
-
-	  	<Nav>
-		  	<Nav.Item>
-		  		<Nav.Link className = "spaceRight" eventKey = "link-1"> Resume </Nav.Link>
-		  	</Nav.Item>
-=======
   	<Container fluid>
   		<Row>
   			<Col>
@@ -32,10 +24,7 @@ const Header = ({ }) => (
 				  	<Nav.Item>
 				  		<Nav.Link href={resume} className = "spaceRight justifyContentEnd" eventKey = "link-1"> Resume </Nav.Link>
 				  	</Nav.Item>
-
 			  	</Nav>
->>>>>>> 87ef9e8ff769aaf1c96b62a7bc524c093d37f98d
-
 			</Col>
 		</Row>
 
