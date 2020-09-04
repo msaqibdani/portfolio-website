@@ -1,0 +1,22 @@
+.headingSection
+{
+	float: right;
+	font-size: 40px;
+}
+
+.CardHeader {
+	padding-top: 1vh;
+	background-color: #0b0c10;
+	color:#66FCF1;
+}
+
+.CardBody {
+	background-color: #0b0c10;
+	color: #C5C6C7;
+}
+
+
+li {
+	margin-bottom: 1vh;
+	margin-left: -3vh;
+}

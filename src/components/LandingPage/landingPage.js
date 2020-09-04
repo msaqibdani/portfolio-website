@@ -37,7 +37,7 @@ const Landingpage = ({ props }) => (
 				<Jumbotron fluid className="backgroundSection">
 					<p className="tagLine"> <span id="greeting" onMouseOver = {print} >Hello</span>, my name is</p>
 					<p className="name">DANIYAL SAQIB</p>
-					<p className="about">I am a Full Stack Engineer, graduated May 2020 with a degree in Computer Science from <a href="https://depauw.edu/">DePauw University</a>. I am currently working at a start-up in Philadelphia, PA.</p>
+					<p className="about">I am a Full Stack Software Engineer currently working at a start-up <a href="https://formotiv.com/">ForMotiv</a> in Philadelphia, PA.</p>
 				</Jumbotron>
 			</Row>
 			<Row>
