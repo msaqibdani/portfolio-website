@@ -47,6 +47,7 @@ const Layout = ({ children, pageInfo }) => (
 
          <Col md={8} xs={9} sm={9}> 
           <Landingpage />
+          <Experience />
          </Col>
 
          <Col md={2} xs={1} sm={1}>
