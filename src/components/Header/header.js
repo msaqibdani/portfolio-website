@@ -4,7 +4,7 @@ import React from "react"
 
 
 import './header.css'
-import resume_106 from './Resume-v1.0.6.pdf'
+import resume from './Resume-v1.pdf'
 
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
@@ -22,7 +22,7 @@ const Header = ({}) => (
 
 			  	<Nav >
 				  	<Nav.Item>
-				  		<Nav.Link href={resume_106} className = "spaceRight justifyContentEnd" eventKey = "link-1"> Resume </Nav.Link>
+				  		<Nav.Link href={resume} className = "spaceRight justifyContentEnd" eventKey = "link-1"> Resume </Nav.Link>
 				  	</Nav.Item>
 			  	</Nav>
 			</Col>

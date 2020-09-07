@@ -2,15 +2,15 @@
 {
 	margin-top:2vh;
 	margin-right: 1vw;
-	color: #C5C6C7;
+	color: #202832;
 	font-size: 14px;
 }
 
 .spaceRight:hover
 {
-	color: #66FCF1;
+	color: #FCF5F6;
 	text-decoration: overline;
-	text-decoration-color: #45A29E;
+	text-decoration-color: #FCF5F6;
 }
 
 .justifyContentEnd

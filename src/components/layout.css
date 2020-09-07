@@ -1,26 +1,36 @@
 body
 {
-	background-color: #0b0c10;
-	color: #C5C6C7;
+	background-color: #6d7f95;
+	color: #FCF6F5;
 	font-family: system-ui;
-	
 }
 
 a
 {
-	color:#66FCF1;
+	color: #202832;
 }
 
 a:hover
 {
-	color: #66FCF1;
+	color: #FCF5F6;
 	font-weight: bold;
 	text-decoration: overline;
-	text-decoration-color: #45A29E;
+	text-decoration-color: #FCF5F6;
 }
 
 
+
+
 /*
+
+Color Themes:
+
+Background-Color: #6d7f95;
+Name/Icons-Color: #202832;
+	Hover/-Color: #FCF5F6;
+
+
+
 @media only screen and (max-width: 600px) {...}
 
 

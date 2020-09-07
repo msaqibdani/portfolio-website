@@ -1,8 +1,8 @@
 .backgroundSection
 {
 
-	background-color: #0b0c10;
-	color: #C5C6C7;
+	background-color: #6d7f95;
+	color: #FCF6F5;
 
 }
 
@@ -19,7 +19,7 @@
 	
 	margin-top: -4vh;
 	font-size: 100px;
-	color: #66FCF1;
+	color: #202832;
 }
 
 .about
@@ -33,15 +33,16 @@
 .btnContact
 {
 	margin-top: -5vh;
-	border-color: #66FCF1;
-	color: #66FCF1;
+	color: #202832;
+	border-color: #202832;
 }
 
 .btnContact:hover
 {
 
 	color: #0b0c10;
-	background-color: #66FCF1;
+	background-color: #FCF6F5;
+	border-color: #FCF6F5;
 }
 
 
