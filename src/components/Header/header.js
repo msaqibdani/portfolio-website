@@ -4,7 +4,7 @@ import React from "react"
 
 
 import './header.css'
-import resume from './Resume-v1.0.pdf'
+import resume from './Resume-v1.pdf'
 
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
