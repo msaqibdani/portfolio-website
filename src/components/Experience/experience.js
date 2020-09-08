@@ -15,32 +15,24 @@ import Card from 'react-bootstrap/Card'
 import Carousel from 'react-bootstrap/Carousel'
 
 
-const topPadding = 
-{
-	marginTop: '25vh',
-	marginBottom: '30vh'
-}
-
 
 const Experience = ({props}) =>
 (
 
-	<Row id="experience" style={topPadding}>
-        <h3 style={{marginLeft: '-1.5vw'}}>EXPERIENCE</h3>
-        <Carousel style={{marginTop: '-2vh', marginLeft: '-1.5vw'}}>
-            <Carousel.Item style={{padding: '1vw'}}>
+
+	<Row id="experience" className="topPadding">
+        <h3 className="sectionHeading">WORK EXPERIENCE</h3>
+        <Carousel className="CarouselBody">
+            <Carousel.Item className="itemPadding">
                 <ForMotiv />
             </Carousel.Item>
-            <Carousel.Item style={{padding: '1vw'}}>
+            <Carousel.Item className="itemPadding">
                 <SiliconLabs />
             </Carousel.Item>
-            <Carousel.Item style={{padding: '1vw'}}>
+            <Carousel.Item className="itemPadding">
                 <DePauwUniversity />
-            </Carousel.Item>
-            
-        </Carousel>
-
-        
+            </Carousel.Item>  
+        </Carousel> 
 	</Row>
 )
 

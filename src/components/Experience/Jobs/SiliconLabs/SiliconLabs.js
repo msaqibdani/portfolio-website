@@ -3,17 +3,14 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import SiliconLabsLogo from '../../../../images/siliconLabs.png'
-
+import './SiliconLabs.css'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 
-const logoSL = {
-    marginLeft: '22vw',
-    width: '5vw'
-}
+
 
 const SiliconLabs = ({props}) =>
 (
@@ -21,7 +18,7 @@ const SiliconLabs = ({props}) =>
     <Row>
         <Card className="cardBackground">
             <Card.Body>
-                <Card.Title className="cardTitle">Silicon Labs <Card.Img style={logoSL} src={SiliconLabsLogo}></Card.Img><span className="time">May 2019 - August 2019</span></Card.Title>
+                <Card.Title className="cardTitle">Silicon Labs <Card.Img className="logoSL" src={SiliconLabsLogo}></Card.Img><span className="time">May 2019 - August 2019</span></Card.Title>
                 <Card.Subtitle className="cardSubtitle mb-2">Software Engineer Intern<span className="location">Boston, MA</span></Card.Subtitle>
                 <ul className="ul">
                     <Card.Text className="cardText">

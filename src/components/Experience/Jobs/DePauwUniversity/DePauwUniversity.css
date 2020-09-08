@@ -1,12 +1,14 @@
-.logoSL {
+.logoDPU {
 	margin-left: 14vw;
 	width: 8vw;
 }
 
+
+
 @media only screen and (max-width: 600px)
 {
 
-	.logoSL {
+	.logoDPU {
 		width: 0vw;
 	}
 

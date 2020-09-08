@@ -54,3 +54,49 @@
 	margin-left: 10vh;
 	margin-bottom: 2vh;
 }
+
+
+
+@media only screen and (max-width: 600px)
+{
+	.cardBackground {
+		background-color: #303f50;
+		width: 120vw;
+		height:110vh;
+	}
+
+	.ul {
+		text-align: left;
+		width: 85vw;
+		margin-top: 4.5vh;
+		font-weight: 300;
+	}
+
+	.li {
+		margin-left: -2vh;
+		margin-bottom: 2vh;
+	}
+
+	.logo {
+		margin-left: 22vw;
+		width: 0vw;
+	}
+
+	.location {
+		margin-top: -0.1vh;
+		font-size:14px;
+		float:right;
+		font-weight:100;
+		color:#FCF5F6;
+	}
+
+	.cardSubtitle {
+		margin-top: -1.5vh;
+		
+	}
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1200px)
+{
+}

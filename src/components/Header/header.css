@@ -6,15 +6,30 @@
 	
 }
 
+.headerLink {
+	font-weight: 300;
+	margin-right: 1vw;
+}
 
 
-@media only screen and (max-width: 600px) 
+
+@media only screen and (max-width: 600px)
 {
 	.justifyContentEnd
 	{
 		font-size: 12px;
 		height: 5vh;
-		margin-left: 70vw;
-	}
+		margin-left: 0vw;
+	}		
 
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1400px)
+{
+	.justifyContentEnd
+	{
+		font-size: 20px;
+		height: 5vh;
+		margin-left: 0vw;
+	}
 }

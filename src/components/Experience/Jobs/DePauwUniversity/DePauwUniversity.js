@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import dpuLogo from '../../../../images/dpuLogo.png'
-
+import './DePauwUniversity.css'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -11,10 +11,7 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 
 
-const logoSL = {
-    marginLeft: '14vw',
-    width: '8vw'
-}
+
 
 const DePauwUniversity = ({props}) =>
 (
@@ -23,7 +20,7 @@ const DePauwUniversity = ({props}) =>
         <Card className="cardBackground">
             <Card.Body>
                 
-                <Card.Title className="cardTitle">Tenzer Technology Center <Card.Img style={logoSL} src={dpuLogo}></Card.Img><span className="time">May 2018 - August 2018</span></Card.Title>
+                <Card.Title className="cardTitle">Tenzer Technology Center <Card.Img className="logoDPU" src={dpuLogo}></Card.Img><span className="time">May 2018 - August 2018</span></Card.Title>
                 <Card.Subtitle className="cardSubtitle mb-2">Software Engineer Intern<span className="location">Greencastle, IN</span></Card.Subtitle>
                 <ul className="ul">
                     <Card.Text className="cardText">

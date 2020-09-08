@@ -51,38 +51,43 @@
 {
 		.tagLine
 	{
-		margin-top: 18vh;
+		text-align: right;
+		margin-top: 22vh;
 		font-weight: 350;
 		font-size: 20px;
 		margin-left: 10vw;
+		margin-bottom: 3vh;
 
 		
 	}
 
 	.name
 	{	
-		
-		font-size: 35px;
+
+		text-align: right;
+		font-size: 33px;
 		margin-left:10vw;
 		
 	}
 
 	.about
 	{
+		text-align: right;
 		font-size: 12px;
 		font-weight: 12;
 		margin-left: 10vw;
-		width: 50vw;
+		width: 60vw;
 		
 	}
 
 	.btn 
 	{
+		padding-top: 0.35em;
 		margin-top: -7vh;
-		margin-left: 10vw;
+		margin-left: 47vw;
 		font-size:11px;
 		width: 22vw;
-		height: 4.5vh;
+		height: 3.5vh;
 
 	}
 
@@ -90,7 +95,7 @@
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 100px)
+@media only screen and (min-width: 600px) and (max-width: 1200px)
 {
 
 		.tagLine
@@ -99,13 +104,12 @@
 		font-weight: 350;
 		font-size: 25px;
 		margin-left: 10vw;
-		margin-bottom: 3vh;
+		margin-bottom: 4vh;
 		
 	}
 
 	.name
 	{	
-		
 		font-size: 45px;
 		margin-left:10vw;
 		

@@ -20,6 +20,7 @@ import Experience from "./Experience/experience"
 
 
 
+
 const Layout = ({ children, pageInfo }) => (
   <StaticQuery
     query={graphql`
@@ -34,11 +35,6 @@ const Layout = ({ children, pageInfo }) => (
     render={data => (
       
     <Container fluid>
-      <Row>
-        <Col>
-          <Header />
-        </Col>
-      </Row>
 
       <Row>
         <Col md={2} xs={2} sm={2}>

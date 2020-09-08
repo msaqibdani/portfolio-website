@@ -20,10 +20,10 @@ const Header = ({}) => (
 
   	<Container fluid>
   		<Row>
-  			<Navbar bg="dark" variant="dark" className="justifyContentEnd">
+  			<Navbar className="justifyContentEnd">
   					<Nav>
-  						<Nav.Link className="headerLink" href="#experience">Experience</Nav.Link>
-  						<Nav.Link className="headerLink" href="mailto:daniyalsaqib9@gmail.com">Contact</Nav.Link>
+  						<Nav.Item className="headerLink"><a href="#experience">Experience</a></Nav.Item>
+  						<Nav.Item className="headerLink"><a href="mailto:daniyalsaqib9@gmail.com">Contact</a></Nav.Item>
 					</Nav>
 			</Navbar>
 		</Row>
