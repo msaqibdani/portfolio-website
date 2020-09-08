@@ -3,7 +3,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import "./landingPage.css"
-import resume from "./../../images/resume-v1.pdf"
+import resume from "./../../images/Resume-v1.pdf"
 
 
 import Jumbotron from 'react-bootstrap/Jumbotron'
