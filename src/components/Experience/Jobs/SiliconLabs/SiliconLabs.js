@@ -23,14 +23,16 @@ const SiliconLabs = ({props}) =>
             <Card.Body>
                 <Card.Title className="cardTitle">Silicon Labs <Card.Img style={logoSL} src={SiliconLabsLogo}></Card.Img><span className="time">May 2019 - August 2019</span></Card.Title>
                 <Card.Subtitle className="cardSubtitle mb-2">Software Engineer Intern<span className="location">Boston, MA</span></Card.Subtitle>
-                <Card.Text className="cardText">
-                    <ul className="ul">
-                        <li className="li"> Designed and implemented user interface for the client-server network analyzer model to develop an application using Electron framework, emphasizing on cross platform development</li>
-                        <li className="li"> Used ClusterizeJS to buffer large sets of data, decreasing buffer time from 17s to less than 1s</li>
-                        <li className="li"> Implemented socket in Electron to create routes to deliver data packets to the frontend UI</li>
-                        <li className="li"> Utilized Google protobuffers in Javascript and Java, allowing 10x faster transferring and serialization of data</li>
-                    </ul>
-                </Card.Text>
+                <ul className="ul">
+                    <Card.Text className="cardText">
+                        
+                            <li className="li"> Designed and implemented user interface for the client-server network analyzer model to develop an application using Electron framework, emphasizing on cross platform development</li>
+                            <li className="li"> Used ClusterizeJS to buffer large sets of data, decreasing buffer time from 17s to less than 1s</li>
+                            <li className="li"> Implemented socket in Electron to create routes to deliver data packets to the frontend UI</li>
+                            <li className="li"> Utilized Google protobuffers in Javascript and Java, allowing 10x faster transferring and serialization of data</li>
+                    </Card.Text>
+                </ul>
+                
                 </Card.Body>
         </Card>
     </Row>

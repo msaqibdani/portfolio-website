@@ -21,14 +21,15 @@ const ForMotiv = ({props}) =>
             <Card.Body>
                 <Card.Title className="cardTitle">ForMotiv <Card.Img className="logo" src={ForMotivLogo}></Card.Img><span className="time">June 2020 - Present</span></Card.Title>
                 <Card.Subtitle className="cardSubtitle mb-2">Full Stack Software Engineer<span className="location">Philadelphia, PA</span></Card.Subtitle>
-                <Card.Text className="cardText">
-                    <ul className="ul">
-                        <li className="li"> Improved the efficiency of data transfer by refactoring of ForMotiv’s API, written in Javascript</li>
-                        <li className="li"> Developing data mining techniques to retrieve data from MongoDB and preprocess data in R/Python</li>
-                        <li className="li"> Developed and designed single and multi page web-applications in React and Angular, using react-bootstrap, material-ui and other CSS libraries to design and write integration manuals in different frontend frameworks</li>
-                        <li className="li"> Working with clients’ engineering teams to troubleshoot integration and implementation of ForMotiv’s API</li>
-                    </ul>
-                </Card.Text>
+                <ul className="ul">
+                    <Card.Text className="cardText">
+                            <li className="li"> Improved the efficiency of data transfer by refactoring of ForMotiv’s API, written in Javascript</li>
+                            <li className="li"> Developing data mining techniques to retrieve data from MongoDB and preprocess data in R/Python</li>
+                            <li className="li"> Developed and designed single and multi page web-applications in React and Angular, using react-bootstrap, material-ui and other CSS libraries to design and write integration manuals in different frontend frameworks</li>
+                            <li className="li"> Working with clients’ engineering teams to troubleshoot integration and implementation of ForMotiv’s API</li>
+                    </Card.Text>
+                </ul>
+                
                 </Card.Body>
         </Card>
     </Row>

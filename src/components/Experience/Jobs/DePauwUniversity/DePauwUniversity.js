@@ -25,14 +25,14 @@ const DePauwUniversity = ({props}) =>
                 
                 <Card.Title className="cardTitle">Tenzer Technology Center <Card.Img style={logoSL} src={dpuLogo}></Card.Img><span className="time">May 2018 - August 2018</span></Card.Title>
                 <Card.Subtitle className="cardSubtitle mb-2">Software Engineer Intern<span className="location">Greencastle, IN</span></Card.Subtitle>
-                <Card.Text className="cardText">
-                    <ul className="ul">
-                        <li className="li"> Collaborated with Biochemistry professors to incorporate VR into coursework for 50+ Biochemistry students</li>
-                        <li className="li"> Analyzed the documentation and source code of ChimeraX’s application to design basic UML diagrams</li>
-                        <li className="li"> Augmented existing Python APIs to install new gui tools, allowing students to interact with lab work in VR</li>
-                    </ul>
-                </Card.Text>
-                </Card.Body>
+                <ul className="ul">
+                    <Card.Text className="cardText">
+                            <li className="li"> Collaborated with Biochemistry professors to incorporate VR into coursework for 50+ Biochemistry students</li>
+                            <li className="li"> Analyzed the documentation and source code of ChimeraX’s application to design basic UML diagrams</li>
+                            <li className="li"> Augmented existing Python APIs to install new gui tools, allowing students to interact with lab work in VR</li>
+                    </Card.Text>
+                </ul>
+            </Card.Body>
         </Card>
     </Row>
 )
