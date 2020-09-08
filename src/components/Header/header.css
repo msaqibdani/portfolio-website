@@ -1,22 +1,8 @@
-.spaceRight
-{
-	margin-top:2vh;
-	margin-right: 1vw;
-	color: #202832;
-	font-size: 14px;
-}
-
-.spaceRight:hover
-{
-	color: #FCF5F6;
-	text-decoration: overline;
-	text-decoration-color: #FCF5F6;
-}
-
 .justifyContentEnd
 {
+	margin-top: 1vh;
 	height: 5vh;
-	margin-left: 90vw;
+	margin-left: 85vw;
 	
 }
 

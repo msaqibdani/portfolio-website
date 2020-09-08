@@ -4,12 +4,14 @@ import React from "react"
 
 
 import './header.css'
-import resume from './Resume-v1.pdf'
 
+
+import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+
 
 
 
@@ -18,14 +20,12 @@ const Header = ({}) => (
 
   	<Container fluid>
   		<Row>
-  			<Col>
-
-			  	<Nav >
-				  	<Nav.Item>
-				  		<Nav.Link href={resume} className = "spaceRight justifyContentEnd" eventKey = "link-1"> Resume </Nav.Link>
-				  	</Nav.Item>
-			  	</Nav>
-			</Col>
+  			<Navbar bg="dark" variant="dark" className="justifyContentEnd">
+  					<Nav>
+  						<Nav.Link className="headerLink" href="#experience">Experience</Nav.Link>
+  						<Nav.Link className="headerLink" href="mailto:daniyalsaqib9@gmail.com">Contact</Nav.Link>
+					</Nav>
+			</Navbar>
 		</Row>
 
 	</Container>

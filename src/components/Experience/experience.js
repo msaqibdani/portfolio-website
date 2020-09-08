@@ -4,43 +4,44 @@ import React from "react"
 
 
 import './experience.css'
+import ForMotiv from './Jobs/ForMotiv/ForMotiv.js'
+import SiliconLabs from './Jobs/SiliconLabs/SiliconLabs.js'
+import DePauwUniversity from './Jobs/DePauwUniversity/DePauwUniversity.js'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
+import Carousel from 'react-bootstrap/Carousel'
 
 
 const topPadding = 
 {
 	marginTop: '25vh',
-	marginBottom: '50vh'
+	marginBottom: '30vh'
 }
 
 
 const Experience = ({props}) =>
 (
 
-	<Row style={topPadding}>
-        <h3>EXPERIENCE</h3>
-		<Card className="cardBackground">
-			<Card.Body>
-				<Card.Title className="cardTitle">ForMotiv <span className="time">June 2020 - Present</span></Card.Title>
-				<Card.Subtitle className="cardSubtitle mb-2">Full Stack Software Engineer</Card.Subtitle>
-    			<Card.Text className="cardText">
-    				<ul className="ul">
-    					<li className="li"> Improved the efficiency of data transfer by refactoring of ForMotiv’s API, written in Javascript</li>
-    					<li className="li"> Developing data mining techniques to retrieve data from MongoDB and preprocess data in R/Python</li>
-    					<li className="li"> Developed and designed single and multi page web-applications in React and Angular, using react-bootstrap, material-ui and other CSS libraries to design and write integration manuals in different frontend frameworks</li>
-    					<li className="li"> Working with clients’ engineering teams to troubleshoot integration and implementation of ForMotiv’s API</li>
-    				</ul>
-    			</Card.Text>
-    			</Card.Body>
-    	</Card>
+	<Row id="experience" style={topPadding}>
+        <h3 style={{marginLeft: '-1.5vw'}}>EXPERIENCE</h3>
+        <Carousel style={{marginTop: '-2vh', marginLeft: '-1.5vw'}}>
+            <Carousel.Item style={{padding: '1vw'}}>
+                <ForMotiv />
+            </Carousel.Item>
+            <Carousel.Item style={{padding: '1vw'}}>
+                <SiliconLabs />
+            </Carousel.Item>
+            <Carousel.Item style={{padding: '1vw'}}>
+                <DePauwUniversity />
+            </Carousel.Item>
+            
+        </Carousel>
+
+        
 	</Row>
 )
 
 export default Experience
-
-
-

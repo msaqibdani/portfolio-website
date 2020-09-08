@@ -3,6 +3,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import "./landingPage.css"
+import resume from "./../../images/resume-v1.pdf"
 
 
 import Jumbotron from 'react-bootstrap/Jumbotron'
@@ -41,7 +42,7 @@ const Landingpage = ({ props }) => (
 				</Jumbotron>
 			</Row>
 			<Row>
-				 <Button href="mailTo:daniyalsaqib9@gmail.com" className = "btnContact" variant="">Contact Me</Button>
+				 <Button href={resume} className = "btnContact" variant="">Resume</Button>
 			</Row>
 		</Col>
 	</Row>
