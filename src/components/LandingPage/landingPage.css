@@ -51,11 +51,11 @@
 {
 		.tagLine
 	{
-		text-align: right;
-		margin-top: 22vh;
+		text-align: left;
+		margin-top: 13vh;
 		font-weight: 350;
 		font-size: 20px;
-		margin-left: 10vw;
+		margin-left: 12vw;
 		margin-bottom: 3vh;
 
 		
@@ -64,18 +64,18 @@
 	.name
 	{	
 
-		text-align: right;
+		text-align: left;
 		font-size: 33px;
-		margin-left:10vw;
+		margin-left:12vw;
 		
 	}
 
 	.about
 	{
-		text-align: right;
+		text-align: left;
 		font-size: 12px;
-		font-weight: 12;
-		margin-left: 10vw;
+		font-weight: 350;
+		margin-left: 12vw;
 		width: 60vw;
 		
 	}
@@ -84,10 +84,18 @@
 	{
 		padding-top: 0.35em;
 		margin-top: -7vh;
-		margin-left: 47vw;
+		margin-left: 25vw;
 		font-size:11px;
 		width: 22vw;
 		height: 3.5vh;
+
+	}
+
+	.technologies {
+		margin-left: 6vw;
+		text-align: right;
+		font-size: 12px;
+		font-weight: 350;
 
 	}
 
@@ -98,9 +106,9 @@
 @media only screen and (min-width: 600px) and (max-width: 1200px)
 {
 
-		.tagLine
+	.tagLine
 	{
-		margin-top: 25vh;
+		margin-top: 20.75vh;
 		font-weight: 350;
 		font-size: 25px;
 		margin-left: 10vw;
@@ -131,6 +139,16 @@
 		font-size:11px;
 		width: 15vw;
 		height: 3vh;
+		margin-bottom: 11vw;
+
+	}
+
+	.technologies {
+		margin-left: 6vw;
+		text-align: right;
+		font-size: 12px;
+		font-weight: 350;
+
 
 	}
 

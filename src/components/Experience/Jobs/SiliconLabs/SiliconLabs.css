@@ -15,3 +15,17 @@
 	}
 
 }
+
+@media only screen and (min-width: 600px) and (max-width: 1200px)
+{
+
+	.logoSL {
+		width: 0vw;
+	}
+
+
+	.cardTitle {
+		margin-bottom: 2vh;
+	}
+
+}

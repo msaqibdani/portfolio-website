@@ -13,6 +13,26 @@
 	}
 
 	.cardTitle {
+		
+		font-size:16px;
+	}
+
+	.time {
+		font-size: 12px;
+	}
+
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px)
+{
+
+	.logoDPU {
+		width: 0vw;
+	}
+
+	.cardTitle {
 		font-size:16px;
 	}
 

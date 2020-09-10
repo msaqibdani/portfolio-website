@@ -38,7 +38,25 @@ const Landingpage = ({ props }) => (
 				<Jumbotron fluid className="backgroundSection">
 					<p className="tagLine"> <span id="greeting" onMouseOver = {print} >Hello</span>, my name is</p>
 					<p className="name">DANIYAL SAQIB</p>
-					<p className="about">I am a Full Stack Software Engineer currently working at a start-up <a href="https://formotiv.com/">ForMotiv</a> in Philadelphia, PA.</p>
+					<p className="about">I am a Full Stack Software Engineer currently working at a start-up <a href="https://formotiv.com/">ForMotiv</a> in Philadelphia, PA. Few of the technologies I have been working at ForMotiv are:</p>
+					<Row>
+						<Col className="technologies" md={3} xs={3} sm={3}>
+							<ul>
+								<li>Javascript</li>
+								<li>Python</li>
+								<li>HTML</li>
+								<li>CSS</li>
+							</ul>
+						</Col>
+						<Col className="technologies" md={3} xs={3} sm={3}>
+							<ul>
+								<li>ReactJS</li>
+								<li>AngularJS</li>
+								<li>NodeJS</li>
+								<li>Flask</li>
+							</ul>
+						</Col>
+					</Row>
 				</Jumbotron>
 			</Row>
 			<Row>
