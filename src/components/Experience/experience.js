@@ -22,7 +22,7 @@ const Experience = ({props}) =>
 
 	<Row id="experience" className="topPadding">
         <h3 className="sectionHeading">WORK EXPERIENCE</h3>
-        <Carousel interval="50000" className="CarouselBody">
+        <Carousel interval='50000' className="CarouselBody">
             <Carousel.Item className="itemPadding">
                 <ForMotiv />
             </Carousel.Item>
