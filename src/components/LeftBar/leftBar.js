@@ -4,9 +4,10 @@ import { Link } from "gatsby"
 import { IconContext } from "react-icons" 
 
 
+
 import './leftBar.css'
 
-
+import { AiOutlineMail } from 'react-icons/ai'
 import { FaGithub, FaLinkedin, FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'
 
 import Row from 'react-bootstrap/Row'
@@ -36,6 +37,9 @@ const Leftbar = ({props}) =>
 				</div>
 				<div className="spaceBetween">
 					<a target="_blank" href="https://instagram.com/daniyalsaqib"><FaInstagram /></a>
+				</div>
+				<div className="spaceBetween">
+					<a target="_blank" href="mailto:daniyalsaqib9@gmail.com"><AiOutlineMail/></a>
 				</div>
 				
 			</IconContext.Provider>
