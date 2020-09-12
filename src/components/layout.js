@@ -17,7 +17,7 @@ import Landingpage from "./LandingPage/landingPage.js"
 import LeftBar from "./LeftBar/leftBar"
 import Rightbar from "./RightBar/rightBar"
 import Experience from "./Experience/experience"
-
+import Projects from "./Projects/projects"
 
 
 
@@ -44,6 +44,7 @@ const Layout = ({ children, pageInfo }) => (
          <Col md={8} xs={9} sm={9}> 
           <Landingpage />
           <Experience />
+          <Projects />
          </Col>
 
          <Col md={2} xs={1} sm={1}>
