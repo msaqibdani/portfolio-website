@@ -36,13 +36,13 @@ export default function Projects(props)
 		<Row>
 			<Row><h3 className="sectionHeading projectHeading">PROJECTS</h3></Row>
 			<Row>
-				<Col><ProjectTemplate projectLink={portfolioWebsite.link} cardBody={portfolioWebsite.title} cardTitle="Portfolio Website" technologies="React, Gatsby, React-bootstrap"/></Col>
-				<Col><ProjectTemplate projectLink={housingPricesPrediction.link} cardBody={housingPricesPrediction.title} cardTitle="Housing Prices Prediction" technologies="Python"/></Col>
+				<Col xs={12} md={6}><ProjectTemplate projectLink={portfolioWebsite.link} cardBody={portfolioWebsite.title} cardTitle="Portfolio Website" technologies="React, Gatsby, React-bootstrap"/></Col>
+				<Col xs={12} md={6}><ProjectTemplate projectLink={housingPricesPrediction.link} cardBody={housingPricesPrediction.title} cardTitle="Housing Prices Prediction" technologies="Python"/></Col>
 			</Row>
 
 			<Row>
-				<Col><ProjectTemplate projectLink={calendarTime.link} cardBody={calendarTime.title} cardTitle="Calendar Times" technologies="Python, Django, SQLLite, HTML, CSS"/></Col>
-				<Col><ProjectTemplate projectLink={creditCardApplication.link} cardBody={creditCardApplication.title} cardTitle="Credit Card Angular Application" technologies="Angular, Typescript, HTML, CSS, Bootstrap"/></Col>
+				<Col xs={12} md={6}><ProjectTemplate projectLink={calendarTime.link} cardBody={calendarTime.title} cardTitle="Calendar Times" technologies="Python, Django, SQLLite, HTML, CSS"/></Col>
+				<Col xs={12} md={6}><ProjectTemplate projectLink={creditCardApplication.link} cardBody={creditCardApplication.title} cardTitle="Credit Card Angular Application" technologies="Angular, Typescript, HTML, CSS, Bootstrap"/></Col>
 			</Row>
 
 		</Row>

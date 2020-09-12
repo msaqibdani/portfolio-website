@@ -34,7 +34,7 @@ export default function ProjectTemplate (props) {
 			<div id="overlyingElement" className="overlying" onMouseOver={overlyingSheetOver} onMouseOut={overlyingSheetOut}>
 			</div>
 				<Card.Body>
-					<Card.Title>{props.cardTitle}
+					<Card.Title className="cardTitle">{props.cardTitle}
 					<IconContext.Provider value= {{size: '1.5em', className: "icons-react github-icon-project"}}>
 						<a target="_blank" href={props.projectLink}><FaGithub /></a></IconContext.Provider>
 					</Card.Title>

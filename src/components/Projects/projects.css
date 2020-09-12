@@ -2,3 +2,15 @@
 	margin-left: 27vw!important;
 	margin-bottom: 2vw;
 }
+
+
+@media only screen and (max-width: 600px)
+{
+	.projectHeading {
+		margin-left: -8vw!important;
+		margin-top: 5vh;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px)
+{}

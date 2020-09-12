@@ -26,3 +26,38 @@
 	opacity: 0.6;
 }
 
+
+@media only screen and (max-width: 600px)
+{
+
+	.cardDimesions {
+		margin-left:-16vw;
+		height: 30vh;
+		width: 98.5vw;
+		margin-bottom: 5vh;
+	}
+
+	.overlying {
+		opacity: 0;
+	}
+
+	.cardTitle {
+		font-size: 16px;
+	}
+
+	.mb-2 {
+		font-size: 12px;
+	}
+
+	.cardText {
+		margin-top: 5vh;
+		font-size: 12px;
+		font-weight: 400;
+	}
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1200px)
+{}
+
