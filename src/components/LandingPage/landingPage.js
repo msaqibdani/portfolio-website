@@ -42,18 +42,18 @@ const Landingpage = ({ props }) => (
 					<Row>
 						<Col className="technologies" md={3} xs={3} sm={3}>
 							<ul>
-								<li>Javascript</li>
 								<li>Python</li>
+								<li>Javascript</li>
 								<li>HTML</li>
 								<li>CSS</li>
 							</ul>
 						</Col>
 						<Col className="technologies" md={3} xs={3} sm={3}>
 							<ul>
-								<li>ReactJS</li>
-								<li>AngularJS</li>
-								<li>NodeJS</li>
+								<li>Django</li>
 								<li>Flask</li>
+								<li>ReactJS</li>
+								<li>NodeJS</li>
 							</ul>
 						</Col>
 					</Row>
