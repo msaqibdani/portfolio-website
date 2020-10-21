@@ -32,9 +32,26 @@ export default function Projects(props)
 		link: "https://github.com/msaqibdani/InterviewWebApp"
 	}
 
+	var DiscordBot = {
+
+		title: "Developed a Leetcode discord bot in Python using Discord's and Leetcode's API. Currently it's being hosted on AWS EC2 Instance",
+		link: "https://github.com/msaqibdani/LeetCode_Discord_Bot"
+	}
+
+	var calendarAutomation = {
+		title: "To automate the process of blocking my day after x events have been scheduled on my calendar using Google Cal API, AWS API Gateway and AWS Lambda.",
+		link: "https://github.com/msaqibdani/CalendlyGoogleCalendar"
+
+	}
+
 	return (
 		<Row>
 			<Row><h3 className="sectionHeading projectHeading">PROJECTS</h3></Row>
+
+			<Row>
+				<Col xs={12} md={6}><ProjectTemplate projectLink={DiscordBot.link} cardBody={DiscordBot.title} cardTitle="Discord Bot" technologies="Python, AWS, Discord API, Leetcode-API"/></Col>
+				<Col xs={12} md={6}><ProjectTemplate projectLink={calendarAutomation.link} cardBody={calendarAutomation.title} cardTitle="Calendar Automation" technologies="Python, AWS API Gateway and Lambda, Google Calendar API"/></Col>
+			</Row>
 			<Row>
 				<Col xs={12} md={6}><ProjectTemplate projectLink={portfolioWebsite.link} cardBody={portfolioWebsite.title} cardTitle="Portfolio Website" technologies="React, Gatsby, React-bootstrap"/></Col>
 				<Col xs={12} md={6}><ProjectTemplate projectLink={housingPricesPrediction.link} cardBody={housingPricesPrediction.title} cardTitle="Housing Prices Prediction" technologies="Python"/></Col>
