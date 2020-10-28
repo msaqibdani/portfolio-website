@@ -31,9 +31,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
-        // replace `UA-XXXXXXXXX-X` with your own Google Analytics Tracking ID
+        // your google analytics tracking id
         trackingId: `G-VBT39RV3KM`,
+        // Puts tracking script in the head instead of the body
+        //head: false,
+        // enable ip anonymization
+        //anonymize: true,
       },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
