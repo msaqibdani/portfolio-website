@@ -28,6 +28,12 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        // replace `UA-XXXXXXXXX-X` with your own Google Analytics Tracking ID
+        trackingId: `G-VBT39RV3KM`,
+      },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
