@@ -29,7 +29,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-gtag`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
         // your google analytics tracking id
         trackingId: `G-VBT39RV3KM`,
